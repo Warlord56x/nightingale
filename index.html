@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <!--head tag-->
+  <head>
+    <title>nightingale</title>
+    <!--meta tags-->
+    <meta lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--load web fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--load required @material css code-->
+    <link rel="stylesheet" href="node_modules/@material/typography/dist/mdc.typography.min.css">
+    <link rel="stylesheet" href="node_modules/@material/theme/dist/mdc.theme.min.css">
+    <link rel="stylesheet" href="node_modules/@material/elevation/dist/mdc.elevation.min.css">
+    <link rel="stylesheet" href="node_modules/@material/list/dist/mdc.list.min.css">
+    <link rel="stylesheet" href="node_modules/@material/drawer/dist/mdc.drawer.min.css">
+    <link rel="stylesheet" href="node_modules/@material/toolbar/dist/mdc.toolbar.min.css">
+    <link rel="stylesheet" href="node_modules/@material/ripple/dist/mdc.ripple.min.css">
+    <!--load site specific css code-->
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <!--body tag-->
+  <body class="mdc-typography mdc-typography--body2">
+    <!--mdc-drawer-->
+    <aside class="drawer mdc-drawer mdc-drawer--temporary">
+      <nav class="mdc-drawer__drawer">
+        <!--spacer for the toolbar-->
+        <div class="mdc-drawer__toolbar-spacer mdc-typography--title mdc-theme--primary">NIGHTINGALE</div>
+        <!--main content of the temporary drawer-->
+        <main class="mdc-drawer__content mdc-typography--body1 mdc-theme--primary-dark">
+          <!--mdc-list-group-->
+          <div class="mdc-list mdc-typography--body1">
+            <a href="#" class="mdc-list-item">Headline1</a>
+            <a href="#" class="mdc-list-item">Headline2</a>
+            <a href="#" class="mdc-list-item">Headline3</a>
+          </div>
+        </main>
+      </nav>
+    </aside>
+    <!--mdc-toolbar-->
+    <header class="toolbar mdc-toolbar mdc-toolbar--fixed mdc-toolbar--fixed-lastrow-only mdc-toolbar--waterfall mdc-toolbar--flexible mdc-toolbar--flexible-default-behavior mdc-theme--primary-bg">
+      <div class="mdc-toolbar__row">
+        <!--section start-->
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+          <a class="menu material-icons mdc-toolbar__menu-icon mdc-ripple-surface">menu</a>
+          <span class="mdc-toolbar__title mdc-typography--title">NIGHTINGALE</span>
+        </section>
+        <!--section center-->
+        <section class="mdc-toolbar__section mdc-toolbar__section--shrink-to-fit"></section>
+        <!--section end-->
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-end mdc-toolbar__section--shrink-to-fit">
+          <a href="#" class="download material-icons mdc-toolbar__icon mdc-ripple-surface">get_app</a>
+          <a href="#" class="bugs material-icons mdc-toolbar__icon mdc-ripple-surface">report_problem</a>
+          <a href="#" class="code material-icons mdc-toolbar__icon mdc-ripple-surface">code</a>
+        </section>
+      </div>
+    </header>
+    <!--main content of the site-->
+    <main class="main mdc-toolbar-fixed-adjust mdc-theme--background mdc-theme--primary-dark">
+      <!--headline content-->
+      <p class="param mdc-typography--headline">Headline</p>
+      <p class="param">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="param">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+      <p class="param">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+      <p class="param">Donec purus justo, pretium eget odio in, dignissim consectetur metus. Nunc rhoncus tellus vel mi varius, sit amet commodo velit imperdiet. Etiam eget imperdiet metus. Aenean sed viverra nibh, in blandit nunc. Nulla euismod, diam vitae pretium consectetur, dui nunc malesuada neque, et vehicula tortor mauris vitae elit. Sed vitae dui et tortor viverra consectetur id a nulla. Pellentesque in ornare odio. Mauris imperdiet elit vitae odio porta, quis efficitur metus sagittis. Vivamus vehicula lectus diam, vel egestas mi varius eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque cursus a massa quis viverra. Proin vel imperdiet est.</p>
+      <p class="param">Mauris quis consequat justo. Sed dignissim vulputate vestibulum. Suspendisse potenti. Duis pulvinar, ipsum ut faucibus lobortis, purus nibh pulvinar dolor, vitae elementum enim odio ut turpis. Mauris eu ligula vel lectus congue scelerisque. Donec mollis odio a fringilla eleifend. Nam nec ante ac tellus imperdiet ornare.</p>
+      <p class="param">Maecenas eget elementum diam, sed elementum augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla pulvinar nunc in nunc egestas imperdiet. Sed nisi velit, tristique ut euismod id, cursus vitae elit. Suspendisse pulvinar justo quis sem mollis sollicitudin. In mattis nunc a consequat elementum. Fusce arcu turpis, ultrices iaculis pellentesque nec, ullamcorper quis lorem. Nulla auctor, velit eget blandit porta, dolor magna pharetra tortor, sit amet blandit arcu risus sed nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras accumsan ac velit vel euismod.</p>
+      <p class="param">Maecenas varius congue purus quis elementum. Pellentesque sit amet massa id arcu blandit tincidunt eget sed erat. In blandit rhoncus tincidunt. Mauris iaculis erat at tristique mollis. Morbi sed iaculis purus, ut laoreet eros. Ut rutrum eros magna, id iaculis diam lobortis at. Nulla facilisi. Phasellus odio orci, eleifend sed neque sit amet, porta semper mauris. Aenean a lorem posuere, euismod tellus ac, sodales risus. Nullam a nisi ut ex dictum malesuada.</p>
+      <p class="param">Nullam vulputate sem a turpis vulputate gravida. Duis tincidunt venenatis sapien non consectetur. Integer ut bibendum dolor, in molestie libero. Vivamus blandit leo est, vitae vulputate purus tincidunt in. Integer sagittis elit metus, eu commodo metus fermentum ut. Nunc venenatis euismod nunc, ut faucibus sem consequat eu. Pellentesque eu viverra sem, ac sodales odio. Donec mattis arcu tincidunt lacus mollis, at mollis justo vehicula. Maecenas lacinia id orci ac sodales. Vivamus ultricies vehicula sapien. Duis ut pharetra metus. Aliquam aliquam, dolor ut vehicula egestas, justo risus consectetur mauris, sit amet elementum sapien ipsum et eros.</p>
+      <!--headline content-->
+      <p class="param mdc-typography--headline">Headline</p>
+      <p class="param">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="param">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+      <p class="param">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+      <p class="param">Donec purus justo, pretium eget odio in, dignissim consectetur metus. Nunc rhoncus tellus vel mi varius, sit amet commodo velit imperdiet. Etiam eget imperdiet metus. Aenean sed viverra nibh, in blandit nunc. Nulla euismod, diam vitae pretium consectetur, dui nunc malesuada neque, et vehicula tortor mauris vitae elit. Sed vitae dui et tortor viverra consectetur id a nulla. Pellentesque in ornare odio. Mauris imperdiet elit vitae odio porta, quis efficitur metus sagittis. Vivamus vehicula lectus diam, vel egestas mi varius eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque cursus a massa quis viverra. Proin vel imperdiet est.</p>
+      <p class="param">Mauris quis consequat justo. Sed dignissim vulputate vestibulum. Suspendisse potenti. Duis pulvinar, ipsum ut faucibus lobortis, purus nibh pulvinar dolor, vitae elementum enim odio ut turpis. Mauris eu ligula vel lectus congue scelerisque. Donec mollis odio a fringilla eleifend. Nam nec ante ac tellus imperdiet ornare.</p>
+      <p class="param">Maecenas eget elementum diam, sed elementum augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla pulvinar nunc in nunc egestas imperdiet. Sed nisi velit, tristique ut euismod id, cursus vitae elit. Suspendisse pulvinar justo quis sem mollis sollicitudin. In mattis nunc a consequat elementum. Fusce arcu turpis, ultrices iaculis pellentesque nec, ullamcorper quis lorem. Nulla auctor, velit eget blandit porta, dolor magna pharetra tortor, sit amet blandit arcu risus sed nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras accumsan ac velit vel euismod.</p>
+      <p class="param">Maecenas varius congue purus quis elementum. Pellentesque sit amet massa id arcu blandit tincidunt eget sed erat. In blandit rhoncus tincidunt. Mauris iaculis erat at tristique mollis. Morbi sed iaculis purus, ut laoreet eros. Ut rutrum eros magna, id iaculis diam lobortis at. Nulla facilisi. Phasellus odio orci, eleifend sed neque sit amet, porta semper mauris. Aenean a lorem posuere, euismod tellus ac, sodales risus. Nullam a nisi ut ex dictum malesuada.</p>
+      <p class="param">Nullam vulputate sem a turpis vulputate gravida. Duis tincidunt venenatis sapien non consectetur. Integer ut bibendum dolor, in molestie libero. Vivamus blandit leo est, vitae vulputate purus tincidunt in. Integer sagittis elit metus, eu commodo metus fermentum ut. Nunc venenatis euismod nunc, ut faucibus sem consequat eu. Pellentesque eu viverra sem, ac sodales odio. Donec mattis arcu tincidunt lacus mollis, at mollis justo vehicula. Maecenas lacinia id orci ac sodales. Vivamus ultricies vehicula sapien. Duis ut pharetra metus. Aliquam aliquam, dolor ut vehicula egestas, justo risus consectetur mauris, sit amet elementum sapien ipsum et eros.</p>
+      <!--headline content-->
+      <p class="param mdc-typography--headline">Headline</p>
+      <p class="param">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="param">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+      <p class="param">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+      <p class="param">Donec purus justo, pretium eget odio in, dignissim consectetur metus. Nunc rhoncus tellus vel mi varius, sit amet commodo velit imperdiet. Etiam eget imperdiet metus. Aenean sed viverra nibh, in blandit nunc. Nulla euismod, diam vitae pretium consectetur, dui nunc malesuada neque, et vehicula tortor mauris vitae elit. Sed vitae dui et tortor viverra consectetur id a nulla. Pellentesque in ornare odio. Mauris imperdiet elit vitae odio porta, quis efficitur metus sagittis. Vivamus vehicula lectus diam, vel egestas mi varius eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque cursus a massa quis viverra. Proin vel imperdiet est.</p>
+      <p class="param">Mauris quis consequat justo. Sed dignissim vulputate vestibulum. Suspendisse potenti. Duis pulvinar, ipsum ut faucibus lobortis, purus nibh pulvinar dolor, vitae elementum enim odio ut turpis. Mauris eu ligula vel lectus congue scelerisque. Donec mollis odio a fringilla eleifend. Nam nec ante ac tellus imperdiet ornare.</p>
+      <p class="param">Maecenas eget elementum diam, sed elementum augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla pulvinar nunc in nunc egestas imperdiet. Sed nisi velit, tristique ut euismod id, cursus vitae elit. Suspendisse pulvinar justo quis sem mollis sollicitudin. In mattis nunc a consequat elementum. Fusce arcu turpis, ultrices iaculis pellentesque nec, ullamcorper quis lorem. Nulla auctor, velit eget blandit porta, dolor magna pharetra tortor, sit amet blandit arcu risus sed nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras accumsan ac velit vel euismod.</p>
+      <p class="param">Maecenas varius congue purus quis elementum. Pellentesque sit amet massa id arcu blandit tincidunt eget sed erat. In blandit rhoncus tincidunt. Mauris iaculis erat at tristique mollis. Morbi sed iaculis purus, ut laoreet eros. Ut rutrum eros magna, id iaculis diam lobortis at. Nulla facilisi. Phasellus odio orci, eleifend sed neque sit amet, porta semper mauris. Aenean a lorem posuere, euismod tellus ac, sodales risus. Nullam a nisi ut ex dictum malesuada.</p>
+      <p class="param">Nullam vulputate sem a turpis vulputate gravida. Duis tincidunt venenatis sapien non consectetur. Integer ut bibendum dolor, in molestie libero. Vivamus blandit leo est, vitae vulputate purus tincidunt in. Integer sagittis elit metus, eu commodo metus fermentum ut. Nunc venenatis euismod nunc, ut faucibus sem consequat eu. Pellentesque eu viverra sem, ac sodales odio. Donec mattis arcu tincidunt lacus mollis, at mollis justo vehicula. Maecenas lacinia id orci ac sodales. Vivamus ultricies vehicula sapien. Duis ut pharetra metus. Aliquam aliquam, dolor ut vehicula egestas, justo risus consectetur mauris, sit amet elementum sapien ipsum et eros.</p>
+    </main>
+    <!--mdc-toolbar used as footer-->
+    <footer class="footer toolbar mdc-toolbar mdc-theme--primary-bg">
+      <div class="mdc-toolbar__row">
+        <!--section start-->
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start mdc-toolbar__section--shrink-to-fit"></section>
+        <!--section center-->
+        <section class="mdc-toolbar__section">
+          <span class="mdc-toolbar__title mdc-typography--title">END</span>
+        </section>
+        <!--section end-->
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-end mdc-toolbar__section--shrink-to-fit"></section>
+      </div>
+    </footer>
+    <!--load required @material js code-->
+    <script src="node_modules/@material/base/dist/mdc.base.min.js"></script>
+    <script src="node_modules/@material/drawer/dist/mdc.drawer.min.js"></script>
+    <script src="node_modules/@material/toolbar/dist/mdc.toolbar.min.js"></script>
+    <script src="node_modules/@material/ripple/dist/mdc.ripple.min.js"></script>
+    <!--load site specific js code-->
+    <script src="index.js"></script>
+  </body>
+</html>
