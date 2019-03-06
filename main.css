@@ -12,37 +12,29 @@
 html,head,body {
   margin: 0px;
   padding: 0px;
-  /* primary */
-  --mdc-theme-primary: #4b3737;
+  --mdc-theme-primary: #000000;
+  --mdc-theme-secondary: #000000;
+  --mdc-theme-surface: #FFFFFF;
   --mdc-theme-on-primary: #FFFFFF;
-  /* secondary */
-  --mdc-theme-secondary: #da6b62;
   --mdc-theme-on-secondary: #FFFFFF;
-  /* background */
+  --mdc-theme--on-surface: #000000;
   --mdc-theme-background: #FFFFFF;
-
-  /* primary light variant */
-  /*--mdc-theme-primary-light: #8C9EFF;*/
-  /* primary dark variant */
-  /*--mdc-theme-primary-dark: #1A237E;*/
-  /* secondary light variant */
-  /*--mdc-theme-secondary-light: #FFFF8D;*/
-  /* secondary dark variant */
-  /*--mdc-theme-secondary-dark: #F57F17;*/
+  --mdc-theme-primary-light: #000000;
+  --mdc-theme-primary-dark: #000000;
+  --mdc-theme-secondary-light: #000000;
+  --mdc-theme-secondary-dark: #000000;
 }
 /* custom styling of page elements */
-.toolbar, .cover {
-  background-image: url("imgs/darkcreature.svg");
+.toolbar, .branding {
+  background-image: url("imgs/redspirits.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.content {}
-.cell {
-  width: 100px;
-  height: 100px;
-}
-.text {
-  padding: 0 10% 0 10%;
+.content {
   text-align: justify;
+}
+.grid {}
+.cell {
+  height: 200px;
 }

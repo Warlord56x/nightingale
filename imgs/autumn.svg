@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="648" height="1024">
-<rect x="0" y="0" width="648" height="1024" fill="#554b3e" />
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%">
+<rect x="0" y="0" width="100%" height="100%" fill="#554b3e" />
 <g transform="scale(4.000000) translate(0.5 0.5)">
 <g transform="translate(95.313493 224.713325) rotate(321.475257) scale(28.502123 46.371567)"><ellipse fill="#ffffc2" fill-opacity="0.501961" cx="0" cy="0" rx="1" ry="1" /></g>
 <g transform="translate(161.000000 130.629054) rotate(347.576173) scale(33.197870 135.717534)"><ellipse fill="#19151a" fill-opacity="0.501961" cx="0" cy="0" rx="1" ry="1" /></g>
