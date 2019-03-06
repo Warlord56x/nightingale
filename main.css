@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Fontjek;
+  src: url("fonts/Fontjek.otf");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  /* primary */
+  --mdc-theme-primary: #4b3737;
+  --mdc-theme-on-primary: #FFFFFF;
+  /* secondary */
+  --mdc-theme-secondary: #da6b62;
+  --mdc-theme-on-secondary: #FFFFFF;
+  /* background */
+  --mdc-theme-background: #FFFFFF;
+
+  /* primary light variant */
+  /*--mdc-theme-primary-light: #8C9EFF;*/
+  /* primary dark variant */
+  /*--mdc-theme-primary-dark: #1A237E;*/
+  /* secondary light variant */
+  /*--mdc-theme-secondary-light: #FFFF8D;*/
+  /* secondary dark variant */
+  /*--mdc-theme-secondary-dark: #F57F17;*/
+}
+.tools {}
+.title {
+  font-family: "Fontjek"
+}
+.cover {
+  background-image: url("imgs/darkcreature.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main {}
+.param {
+  margin: 5px;
+  padding: 10px 10% 10px 10%;
+  text-align: justify;
+}
+.footer {}
